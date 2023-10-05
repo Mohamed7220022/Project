@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="main" onclick="hideme()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ratione, tempora explicabo quos est ipsa
+        nam eaque nulla numquam rem culpa similique maxime adipisci placeat? Perferendis molestiae fuga ea maxime!</p>
+    <button id="btn" onclick="hideme()">
+        Hide Paragraph
+    </button>
+
+    <script>
+        function hideme(){
+            document.getElementById('main').style.display= 'none'
+            document.getElementById('btn').style.color= 'red'
+        }
+
+        let x = 'ahmed' // name
+        let y = 4  // number 
+        let main = document.getElementById('main')  // selector
+
+        // Data Types
+        /*
+        String : 'hello world'  "welcome to javascript"
+        number : 1,2,3      1.5,2.6
+                                      integer _ floa    t
+                     
+
+
+        Boolean : true  false           
+
+        array : {1,2,3}  
+              : {'ahmed','mohamed',omar}  
+              
+              let x ={1,2,3}
+              x{0}=1   , x{1}=2  ,x{2}=3 
+
+
+
+              Object :   {name:"ahmed",age:18,grade: 'A+'}
+              let y = {name:"ahmed",age:18,grade: 'A+}
+
+              y.name     / Y.age   /  y.grade
+              
+            //   Operators
+            =
+            +
+            -
+            * 
+            /
+            ++    increment
+            --    decrement
+            +=
+            -+
+            %   modlus  3/2  1 1/2   1   4/2  2  0/2  0
+
+
+        */
+
+        let z = 0
+        z ++ //1
+        z +=5 //6
+        z= z + 3 //9
+
+      /*
+      compartors
+      5 > 7  false
+      5 < 7   true
+      5 > 5  false
+      5 >= 5  true
+
+
+      7 == 5   false
+      5 == 5   true
+      5 == '5' true
+      5 === '5' false
+      
+      
+
+      7 ! =  5    true
+      5 != 5      false
+      
+      */
+    </script>
+</body>
+
+</html>
